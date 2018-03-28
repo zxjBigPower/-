@@ -1,0 +1,17 @@
+@media screen and (max-device-width: 320px) {  
+    html { font-size: 6px; }  
+}  
+/*5*/  
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {  
+    html { font-size: 8px; }  
+}  
+  
+/*6*/  
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {  
+    html { font-size: 10px; }  
+}  
+  
+/*6+*/  
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {  
+    html { font-size: 10px; }  
+} 
